@@ -14,7 +14,7 @@ def histogram(points, bins):
 			count += 1
 		count = i - start_index
 
-		width = x-y
+		width = y-x
 		density= count/(n* width)
 		all_densities.append(density)
 
