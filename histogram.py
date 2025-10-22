@@ -6,12 +6,12 @@ def histogram(points, bins):
 
 	for x,y in bins:
 		count = 0
-		while i < n and points[i]:
+		while i < n and points[i] < x:
 			i += 1
 
 		start_index = i
 		while i < n and points[i] < y:
-			count += 1
+			i += 1
 		count = i - start_index
 
 		width = y-x
