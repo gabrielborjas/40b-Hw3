@@ -10,7 +10,7 @@ def histogram(points, bins):
 			i += 1
 
 		start_index = i
-		while i < n and points[i] < b:
+		while i < n and points[i] < y:
 			count += 1
 		count = i - start_index
 
