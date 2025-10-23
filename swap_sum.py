@@ -1,7 +1,7 @@
 def swap_sum(A, B):
 	sum_A = sum(A)
 	sum_B = sum(B)
-	difference = sum_A - sum_B
+	difference = sum_A - sum_B + 10
 
 	if difference % 2 != 0:
 		return None
